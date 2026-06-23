@@ -7,6 +7,7 @@ import { Expertise } from "../components/Expertise"
 import { FAQ } from "../components/FAQ"
 import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
+import { VkBanner } from "../components/VkBanner"
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
       <Header />
       <Hero />
       <Team />
+      <VkBanner />
       <Philosophy />
       <Projects />
       <Expertise />
